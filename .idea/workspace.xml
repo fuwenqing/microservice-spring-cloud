@@ -364,7 +364,7 @@
       <workItem from="1541839449881" duration="5306000" />
       <workItem from="1541909456443" duration="13477000" />
       <workItem from="1542724699890" duration="4446000" />
-      <workItem from="1542815373931" duration="1231000" />
+      <workItem from="1542815373931" duration="1720000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud">
       <created>1542812076039</created>
@@ -377,7 +377,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31735000" />
+    <option name="totallyTimeSpent" value="32224000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
