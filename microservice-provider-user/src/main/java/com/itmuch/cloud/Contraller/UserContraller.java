@@ -18,9 +18,7 @@ public class UserContraller {
 
 //        User user1 = userRepository.getOne(id);
         User user=new User();
+        System.out.print("432434");
         return user;
-
-
-
     }
 }
