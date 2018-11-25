@@ -25,6 +25,6 @@ eureka:
        prefer-ip-address: true
        instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
        metadata-map:
-         zone: ABC      # eureka��������Ԫ����
-         lilizhou: BBC  # ����Ӱ��ͻ�����Ϊ
+         zone: ABC      # eureka可以理解的元数据
+         lilizhou: BBC  # 不会影响客户端行为
        lease-renewal-interval-in-seconds: 5

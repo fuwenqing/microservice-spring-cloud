@@ -12,7 +12,10 @@
         <module>microservice-consumer-movie</module>
         <module>microservice-provider-user</module>
         <module>microservice-discoverty-eureka</module>
+		<module>microservice-consumer-movie-feign</module>
 		<module>microservice-consumer-movie-ribbon</module>
+		<module>microservice-consumer-movie-ribbon-without-eureka</module>
+		<module>microservice-consumer-movie-ribbon-properties-customizing</module>
     </modules>
 
     <parent>
@@ -27,15 +30,12 @@
         <java.version>1.8</java.version>
     </properties>
 
-
-
-
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Brixton.RELEASE</version>
+                <version>Camden.SR1</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

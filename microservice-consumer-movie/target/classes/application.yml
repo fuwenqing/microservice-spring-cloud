@@ -1,7 +1,7 @@
 
 
 server:
-    port: 7901
+    port: 7904
 spring:
   jpa:
     generate-ddl: false
@@ -25,6 +25,6 @@ eureka:
        prefer-ip-address: true
        instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
        metadata-map:
-         zone: ABC      # eurekaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½
-         lilizhou: BBC  # ï¿½ï¿½ï¿½ï¿½Ó°ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½Îª
+         zone: ABC      # eureka¿ÉÒÔÀí½âµÄÔªÊý¾Ý
+         lilizhou: BBC  # ²»»áÓ°Ïì¿Í»§¶ËÐÐÎª
        lease-renewal-interval-in-seconds: 5

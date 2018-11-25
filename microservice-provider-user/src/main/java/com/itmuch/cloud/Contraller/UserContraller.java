@@ -3,9 +3,7 @@ package com.itmuch.cloud.Contraller;
 import com.itmuch.cloud.entity.User;
 import com.itmuch.cloud.respostity.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class UserContraller {
@@ -21,4 +19,11 @@ public class UserContraller {
         System.out.print("432434");
         return user;
     }
+
+    @PostMapping("/user")
+    public User postUser(@RequestBody User user) {
+        System.out.println("43434bh");
+        return  user;
+    }
+
 }
