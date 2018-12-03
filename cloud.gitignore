@@ -61,7 +61,7 @@ buildNumber.properties
 ## File-based project format:
 *.ipr
 *.iws
-
+encodings.xml
 ## Plugin-specific files:
 
 # IntelliJ
