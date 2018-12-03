@@ -26,4 +26,10 @@ public class UserContraller {
         return  user;
     }
 
+    @PostMapping("/testuser")
+    public User testUser(@RequestBody User user) {
+        System.out.println("43434bh");
+        return  user;
+    }
+
 }

@@ -27,4 +27,10 @@ public class MovieContraller {
         System.out.println("hello word");
         return  this.userFeignClient.postUser(user);
     }
+
+    @GetMapping("/user_test")
+    public User userTest(User user){
+        System.out.println("hello word_test");
+        return  this.userFeignClient.testUser(user);
+    }
 }
