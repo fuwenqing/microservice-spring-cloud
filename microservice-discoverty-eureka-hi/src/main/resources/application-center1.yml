@@ -1,0 +1,40 @@
+## eureka.client.registerWithEureka ：表示是否将自己注册到Eureka Server，默认为true。由于当前这个应用就是Eureka Server，故而设为false
+## eureka.client.fetchRegistry ：表示是否从Eureka Server获取注册信息，默认为true。因为这是一个单点的Eureka Server，不需要同步其他的Eureka Server节点的数据，故而设为false。
+## eureka.client.serviceUrl.defaultZone ：设置与Eureka Server交互的地址，查询服务和注册服务都需要依赖这个地址。默认是http://localhost:8761/eureka ；多个地址可使用 , 分隔。
+#server:
+#  port: 8761
+#
+## 安全认证的配置
+#security:
+#  basic:
+#    enabled: true
+#  user:
+#    name: chhliu  # 用户名
+#    password: chhliu123456   # 用户密码
+#eureka:
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+#    service-url:
+#      defaultZone: http://chhliu:chhliu123456@localhost:8761/eureka  # 安全的注册地址
+
+server:
+  port: 8761
+spring :
+  application:
+    name: Eureka-Server
+eureka:
+  instance:
+    hostname: center1
+#true表示将自己注册为一个服务，否则是启动了一个注册中心
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://center2:8762/eureka/,http://center3:8763/eureka/ #这里写的center1 的端口，为的是向其进行注册自己
+
+
+#关闭自我保护，并设置剔除时间为30秒
+#eureka.server.enable-self-preservation=false
+#eureka.server.eviction-interval-timer-in-ms=15000
+

@@ -1,0 +1,20 @@
+server:
+  port: 8763
+spring:
+  application:
+    name: Eureka-Server
+eureka:
+  instance:
+    hostname: center3
+#true表示将自己注册为一个服务，否则是启动了一个注册中心
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+ 
+#这里写的center1 的端口，为的是向其进行注册自己
+    service-url:
+      defaultZone: http://center1:8761/eureka/,http://center2:8762/eureka/
+ 
+#关闭自我保护，并设置剔除时间为30秒
+#eureka.server.enable-self-preservation=false
+#eureka.server.eviction-interval-timer-in-ms=15000
