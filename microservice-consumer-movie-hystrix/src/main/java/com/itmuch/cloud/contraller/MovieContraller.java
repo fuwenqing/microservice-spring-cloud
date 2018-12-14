@@ -17,13 +17,15 @@ public class MovieContraller {
     private RestTemplate restTemplate;
 
     @GetMapping("/simple/{id}")
+     @HystrixCommand(fallbackMethod = "fallback")
     public User gerUser(@PathVariable Long id) {
         User user = restTemplate.getForObject("http://microservice-provider-user/simple/" + id, User.class);
         return user;
     }
 
-    public void fallback() {
+    public User fallback(@PathVariable Long id) {
         System.out.println("4343");
+        return null;
     }
 
 

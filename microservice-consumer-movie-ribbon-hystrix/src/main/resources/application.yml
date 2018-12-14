@@ -1,6 +1,7 @@
 
+
 server:
-    port: 7911
+    port: 8010
 spring:
   jpa:
     generate-ddl: false
@@ -12,7 +13,7 @@ spring:
     schema: classpath:schema.sql
     data: classpath:data.sql
   application:
-        name: microservice-consumer-movie
+        name: microservice-consumer-movie-ribbon
 
 eureka:
      client:
@@ -24,6 +25,6 @@ eureka:
        prefer-ip-address: true
        instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
        metadata-map:
-         zone: ABC      # eureka��������Ԫ����
-         lilizhou: BBC  # ����Ӱ��ͻ�����Ϊ
+         zone: ABC      # eureka可以理解的元数据
+         lilizhou: BBC  # 不会影响客户端行为
        lease-renewal-interval-in-seconds: 5
