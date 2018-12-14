@@ -24,6 +24,7 @@
       <module name="microservice-consumer-movie-feign-customzing" target="1.8" />
       <module name="microservice-consumer-movie-hystrix" target="1.8" />
       <module name="microservice-consumer-movie-ribbon" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon-hystrix" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-properties-customizing" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-without-eureka" target="1.8" />
       <module name="microservice-discoverty-eureka" target="1.8" />
