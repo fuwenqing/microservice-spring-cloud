@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@FeignClient(name = "microservice-provider-user",configuration = Configuration1.class)
+@FeignClient(name = "microservice-provider-user",configuration = Configuration1.class,fallback=HystrixClientFallback.class)
 public interface UserFeignClient {
 
     @RequestLine("GET /simple/{id}")

@@ -5,14 +5,20 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customzing/microservice-consumer-movie-feign-customzing.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign-customzing/microservice-consumer-movie-feign-customzing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/microservice-consumer-movie-feign-fallback.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/microservice-consumer-movie-feign-fallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/microservice-consumer-movie-feign-hystrix.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/microservice-consumer-movie-feign-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-hystrix/microservice-consumer-movie-hystrix.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-hystrix/microservice-consumer-movie-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/microservice-consumer-movie-ribbon-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/microservice-consumer-movie-ribbon-hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/microservice-consumer-movie-ribbon-properties-customizing.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-properties-customizing/microservice-consumer-movie-ribbon-properties-customizing.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/microservice-consumer-movie-ribbon-without-eureka.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/microservice-consumer-movie-ribbon-without-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-discove-gateway-zuul/microservice-discove-gateway-zuul.iml" filepath="$PROJECT_DIR$/microservice-discove-gateway-zuul/microservice-discove-gateway-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discoverty-eureka/microservice-discoverty-eureka.iml" filepath="$PROJECT_DIR$/microservice-discoverty-eureka/microservice-discoverty-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discoverty-eureka-hi/microservice-discoverty-eureka-hi.iml" filepath="$PROJECT_DIR$/microservice-discoverty-eureka-hi/microservice-discoverty-eureka-hi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-discoverty-hystrix-Turbine/microservice-discoverty-hystrix-Turbine.iml" filepath="$PROJECT_DIR$/microservice-discoverty-hystrix-Turbine/microservice-discoverty-hystrix-Turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-discove-gateway-zuul/mmicroservice-discove-gateway-zuul.iml" filepath="$PROJECT_DIR$/microservice-discove-gateway-zuul/mmicroservice-discove-gateway-zuul.iml" />
     </modules>
   </component>
 </project>

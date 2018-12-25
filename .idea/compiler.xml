@@ -9,31 +9,43 @@
         <module name="microservice-consumer-movie" />
         <module name="microservice-consumer-movie-feign" />
         <module name="microservice-consumer-movie-feign-customzing" />
+        <module name="microservice-consumer-movie-feign-fallback" />
+        <module name="microservice-consumer-movie-feign-hystrix" />
         <module name="microservice-consumer-movie-hystrix" />
         <module name="microservice-consumer-movie-ribbon" />
+        <module name="microservice-consumer-movie-ribbon-hystrix-dashboard" />
         <module name="microservice-consumer-movie-ribbon-properties-customizing" />
         <module name="microservice-consumer-movie-ribbon-without-eureka" />
+        <module name="microservice-discove-gateway-zuul" />
         <module name="microservice-discoverty-eureka" />
         <module name="microservice-discoverty-eureka-hi" />
+        <module name="microservice-discoverty-hystrix-Turbine" />
         <module name="microservice-provider-user" />
+        <module name="mmicroservice-discove-gateway-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservice-consumer-movie" target="1.8" />
       <module name="microservice-consumer-movie-feign" target="1.8" />
       <module name="microservice-consumer-movie-feign-customzing" target="1.8" />
+      <module name="microservice-consumer-movie-feign-fallback" target="1.8" />
+      <module name="microservice-consumer-movie-feign-hystrix" target="1.8" />
       <module name="microservice-consumer-movie-hystrix" target="1.8" />
       <module name="microservice-consumer-movie-ribbon" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-hystrix" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon-hystrix-dashboard" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-properties-customizing" target="1.8" />
       <module name="microservice-consumer-movie-ribbon-without-eureka" target="1.8" />
+      <module name="microservice-discove-gateway-zuul" target="1.8" />
       <module name="microservice-discoverty-eureka" target="1.8" />
       <module name="microservice-discoverty-eureka (1)" target="1.6" />
       <module name="microservice-discoverty-eureka-hi" target="1.8" />
+      <module name="microservice-discoverty-hystrix-Turbine" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
       <module name="microservice-simple-consumer-movie" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="microservice-spring-cloud" target="1.8" />
+      <module name="mmicroservice-discove-gateway-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
