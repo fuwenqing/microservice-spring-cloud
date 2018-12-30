@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/microservice-provider-user/pom.xml" />
         <option value="$PROJECT_DIR$/microservicediscovertyeureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-discoverty-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-file-upload/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

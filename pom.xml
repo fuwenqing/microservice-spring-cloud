@@ -13,6 +13,8 @@
         <module>microservice-consumer-movie-hystrix</module>
         <module>microservice-provider-user</module>
         <module>microservice-discove-gateway-zuul</module>
+		<module>microservice-discove-gateway-zuul-filter</module>
+		<module>microservice-discove-gateway-zuul-reg</module>
         <module>microservice-discoverty-eureka</module>
         <module>microservice-discoverty-hystrix-Turbine</module>
         <module>microservice-consumer-movie-feign-fallback</module>

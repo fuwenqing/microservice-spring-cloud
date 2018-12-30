@@ -2,73 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebee2a13-0bad-4bd0-8220-5401238bd48d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_turbine_turbine_core_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_turbine_1_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_turbine_1_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zuul_1_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customzing/src/main/java/com/itmuch/cloud/feign/HystrixClientFallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customzing/src/main/java/com/itmuch/cloud/feign/HystrixClientFallback2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/microservice-consumer-movie-feign-fallback.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/src/main/java/com/itmuch/cloud/ConsumerMovieFeignApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/src/main/java/com/itmuch/cloud/contraller/MovieContraller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/src/main/java/com/itmuch/cloud/entity/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/src/main/java/com/itmuch/cloud/feign/FeignClinetFallbackFactroy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/src/main/java/com/itmuch/cloud/feign/HelloClientFallBack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/src/main/java/com/itmuch/cloud/feign/UserFeignWithFallBackFactoryClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/src/test/java/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/target/classes/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/microservice-consumer-movie-feign-hystrix.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/java/com/itmuch/cloud/ConsumerMovieFeignApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/java/com/itmuch/cloud/contraller/MovieContraller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/java/com/itmuch/cloud/entity/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/java/com/itmuch/cloud/feign/HelloClientFallBack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/test/java/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/microservice-consumer-movie-ribbon-hystrix-dashboard.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/src/main/java/com/itmuch/cloud/ConsumerMovieRibbonApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/src/main/java/com/itmuch/cloud/TestConfiugration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/src/main/java/com/itmuch/cloud/contraller/MovieContraller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/src/main/java/com/itmuch/cloud/entity/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/src/main/java/com/itmuch/config/ExcludeFromComponetScan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/src/test/java/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul/microservice-discove-gateway-zuul.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul/mmicroservice-discove-gateway-zuul.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/java/com/itmuch/cloud/ZuulApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discoverty-hystrix-Turbine/microservice-discoverty-hystrix-Turbine.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discoverty-hystrix-Turbine/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discoverty-hystrix-Turbine/src/main/java/com/itmuch/cloud/HystrixTurbine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discoverty-hystrix-Turbine/src/main/resources/application.yml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-consumer-movie/target/classes/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-consumer-movie/target/classes/com/itmuch/cloud/contraller/MovieContraller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-consumer-movie/target/classes/com/itmuch/cloud/entity/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-consumer-movie/target/test-classes/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplicationTests.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-discoverty-eureka/target/classes/com/itmuch/cloud/EurekaApplication.class" afterPath="$PROJECT_DIR$/microservice-discoverty-eureka/target/classes/com/itmuch/cloud/EurekaApplication.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_1_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_1_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_1_2_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_2_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_1_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_archaius_1_2_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_2_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_1_2_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul-filter/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul-filter/src/main/java/com/itmuch/cloud/ZuulApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul-filter/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul-reg/microservice-discove-gateway-zuul-reg.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul-reg/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul-reg/src/main/java/com/itmuch/cloud/ZuulApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul-reg/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-file-upload/microservice-file-upload.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-file-upload/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-file-upload/src/main/java/com/itmuch/cloud/study/FileUploadApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-file-upload/src/main/java/com/itmuch/cloud/study/controller/FileUploadController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-file-upload/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microservice-file-upload/src/main/resources/static/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/com/itmuch/cloud/Contraller/UserContraller.class" afterPath="$PROJECT_DIR$/microservice-provider-user/target/classes/com/itmuch/cloud/Contraller/UserContraller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-customzing/src/main/java/com/itmuch/cloud/feign/FeignClient2.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customzing/src/main/java/com/itmuch/cloud/feign/FeignClient2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-customzing/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customzing/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-customzing/src/main/java/com/itmuch/config/Configuration2.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customzing/src/main/java/com/itmuch/config/Configuration2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-discoverty-eureka/microservice-discoverty-eureka.iml" afterPath="$PROJECT_DIR$/microservice-discoverty-eureka/microservice-discoverty-eureka.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-discoverty-eureka/pom.xml" afterPath="$PROJECT_DIR$/microservice-discoverty-eureka/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-discoverty-eureka/src/main/java/com/itmuch/cloud/EurekaApplication.java" afterPath="$PROJECT_DIR$/microservice-discoverty-eureka/src/main/java/com/itmuch/cloud/EurekaApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/itmuch/cloud/MicroserviceSimpleProviderUserApplication.java" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/itmuch/cloud/MicroserviceSimpleProviderUserApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-discove-gateway-zuul/microservice-discove-gateway-zuul.iml" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul/microservice-discove-gateway-zuul.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-discove-gateway-zuul/pom.xml" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/java/com/itmuch/cloud/ZuulApplication.java" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/java/com/itmuch/cloud/ZuulApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/itmuch/cloud/Contraller/UserContraller.java" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/itmuch/cloud/Contraller/UserContraller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/application.yml" afterPath="$PROJECT_DIR$/microservice-provider-user/target/classes/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-spring-cloud.iml" afterPath="$PROJECT_DIR$/microservice-spring-cloud.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,6 +64,9 @@
     <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/target/" />
     <ignored path="$PROJECT_DIR$/microservice-discoverty-hystrix-Turbine/target/" />
     <ignored path="$PROJECT_DIR$/microservice-discove-gateway-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-discove-gateway-zuul-reg/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-file-upload/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-discove-gateway-zuul-filter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,21 +98,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-discove-gateway-zuul/pom.xml">
+      <file leaf-file-name="FileUploadApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-file-upload/src/main/java/com/itmuch/cloud/study/FileUploadApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-              <folding />
+            <state relative-caret-position="175">
+              <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding>
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ZuulApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/java/com/itmuch/cloud/ZuulApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="333">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -147,40 +124,50 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="294">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EurekaApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-discoverty-eureka/src/main/java/com/itmuch/cloud/EurekaApplication.java">
+      <file leaf-file-name="DebugFilter.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/cloud/spring-cloud-netflix-core/1.2.3.RELEASE/spring-cloud-netflix-core-1.2.3.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/pre/DebugFilter.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZuulApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/java/com/itmuch/cloud/ZuulApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="501">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#1373#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-discoverty-eureka/pom.xml">
+      <file leaf-file-name="FileUploadController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-file-upload/src/main/java/com/itmuch/cloud/study/controller/FileUploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="550">
+              <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileCopyUtils.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.jar!/org/springframework/util/FileCopyUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1950">
+              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-file-upload/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -189,8 +176,18 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservice-discoverty-eureka/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="300">
+              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EurekaApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-discoverty-eureka/src/main/java/com/itmuch/cloud/EurekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -229,6 +226,8 @@
       <find>dashboard</find>
       <find>actuatoractuator</find>
       <find>spring-boot-starter-actuator</find>
+      <find>RestController</find>
+      <find>UserRepository</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -243,14 +242,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice-discoverty-eureka-hi/src/main/resources/application_02.yml" />
-        <option value="$PROJECT_DIR$/microservice-discoverty-eureka-hi/src/main/resources/application_01.yml" />
-        <option value="$PROJECT_DIR$/microservice-discoverty-eureka-hi/src/main/resources/application-center1.yml" />
-        <option value="$PROJECT_DIR$/microservice-discoverty-eureka-hi/src/main/resources/application-center2.yml" />
         <option value="$PROJECT_DIR$/microservice-discoverty-eureka-hi/src/main/resources/application-center3.yml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-without-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-hystrix/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/itmuch/cloud/contraller/MovieContraller.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/contraller/MovieContraller.java" />
@@ -289,10 +283,15 @@
         <option value="$PROJECT_DIR$/microservice-discoverty-hystrix-Turbine/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-discoverty-hystrix-Turbine/src/main/java/com/itmuch/cloud/HystrixTurbine.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/java/com/itmuch/cloud/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/java/com/itmuch/cloud/ZuulApplication.java" />
         <option value="$PROJECT_DIR$/microservice-discove-gateway-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/java/com/itmuch/cloud/ZuulApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-discove-gateway-zuul-reg/src/main/java/com/itmuch/cloud/ZuulApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-discove-gateway-zuul-reg/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/itmuch/cloud/Contraller/UserContraller.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-file-upload/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/resources/application.yml" />
       </list>
     </option>
@@ -313,17 +312,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservice-discove-gateway-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservice-discove-gateway-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -378,9 +367,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -388,20 +375,89 @@
               <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="code02" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-core-1.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-core-1.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-core-1.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="rx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-core-1.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-core-1.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="filters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-core-1.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="filters" type="462c0819:PsiDirectoryNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice-spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-core-1.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="filters" type="462c0819:PsiDirectoryNode" />
+              <item name="pre" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-file-upload/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.7491369" />
+    <property name="project.structure.side.proportion" value="0.16781609" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -410,7 +466,7 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/microservicediscovertyeureka" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/itmuch/cloud" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -469,6 +525,17 @@
       <module name="microservice-consumer-movie-feign-hystrix" />
       <envs />
     </configuration>
+    <configuration name="ConsumerMovieRibbonApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.itmuch.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.ConsumerMovieRibbonApplication" />
+      <module name="microservice-consumer-movie-ribbon" />
+      <envs />
+    </configuration>
     <configuration name="ConsumerMovieRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.ConsumerMovieRibbonApplication" />
@@ -487,7 +554,7 @@
       <module name="microservice-consumer-movie-ribbon-without-eureka" />
       <envs />
     </configuration>
-    <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="EurekaApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.itmuch.cloud.*" />
@@ -504,6 +571,13 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="microservice-discoverty-hystrix-Turbine" />
+      <envs />
+    </configuration>
+    <configuration name="FileUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.study.FileUploadApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="microservice-file-upload" />
       <envs />
     </configuration>
     <configuration name="HystrixTurbine" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -539,9 +613,23 @@
       <module name="microservice-provider-user" />
       <envs />
     </configuration>
+    <configuration name="ZuulApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.itmuch.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.ZuulApplication" />
+      <module name="microservice-discove-gateway-zuul-reg" />
+      <envs />
+    </configuration>
     <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.ZuulApplication" />
+      <option name="VM_PARAMETERS" value="-Xms4000M -Xmx4000M" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="D:\tools\jdk\jdk1.8.0_66\jdk1.8.0_66\jre" />
       <module name="microservice-discove-gateway-zuul" />
       <envs />
     </configuration>
@@ -626,25 +714,29 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="12">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.MicroserviceSimpleProviderUserApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.MicroserviceSimpleConsumerMovieApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.App" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ConsumerMovieRibbonWithoutEurekaApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.ConsumerMovieRibbonPropertiesApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.HystrixTurbine" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.ConsumerMovieFeignApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.ConsumerMovieRibbonApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.ZuulApplication" />
-      <item index="9" class="java.lang.String" itemvalue="Application.EurekaApplication" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.MicroserviceSimpleConsumerMovieApplication (1)" />
-      <item index="11" class="java.lang.String" itemvalue="Spring Boot.ConsumerMovieFeignApplication (1)" />
+    <list size="15">
+      <item index="0" class="java.lang.String" itemvalue="Application.EurekaApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.MicroserviceSimpleProviderUserApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.MicroserviceSimpleConsumerMovieApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.App" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.ConsumerMovieRibbonWithoutEurekaApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.ConsumerMovieRibbonPropertiesApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.HystrixTurbine" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.ConsumerMovieFeignApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.ConsumerMovieRibbonApplication" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.ZuulApplication" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.FileUploadApplication" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.MicroserviceSimpleConsumerMovieApplication (1)" />
+      <item index="12" class="java.lang.String" itemvalue="Spring Boot.ConsumerMovieFeignApplication (1)" />
+      <item index="13" class="java.lang.String" itemvalue="Spring Boot.ConsumerMovieRibbonApplication (1)" />
+      <item index="14" class="java.lang.String" itemvalue="Spring Boot.ZuulApplication (1)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ConsumerMovieFeignApplication (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.MicroserviceSimpleConsumerMovieApplication (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.EurekaApplication" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ZuulApplication (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ConsumerMovieRibbonApplication (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.ConsumerMovieFeignApplication (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.MicroserviceSimpleConsumerMovieApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -690,7 +782,13 @@
       <workItem from="1545311627434" duration="3371000" />
       <workItem from="1545468989150" duration="7591000" />
       <workItem from="1545658652496" duration="2083000" />
-      <workItem from="1545743466956" duration="94000" />
+      <workItem from="1545743466956" duration="4864000" />
+      <workItem from="1545830804652" duration="4354000" />
+      <workItem from="1545918852851" duration="2211000" />
+      <workItem from="1546003664235" duration="3033000" />
+      <workItem from="1546007908505" duration="413000" />
+      <workItem from="1546008533656" duration="1583000" />
+      <workItem from="1546154649098" duration="1545000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud">
       <created>1542812076039</created>
@@ -776,11 +874,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544800980274</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="springcloud">
+      <created>1545743607531</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1545743607531</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133907000" />
+    <option name="totallyTimeSpent" value="151816000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -795,36 +900,36 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33060557" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.018003274" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33060557" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54664487" sideWeight="0.5045386" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16111952" sideWeight="0.49224806" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27332243" sideWeight="0.4969743" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31914893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36988544" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54664487" sideWeight="0.5045386" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23827533" sideWeight="0.49224806" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.400982" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39116204" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.4969743" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36988544" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23903178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34568834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.65957445" sideWeight="0.49546143" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.65957445" sideWeight="0.49546143" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37315875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.041603632" sideWeight="0.50775194" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.014729951" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.014729951" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -888,7 +993,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/itmuch/cloud/Contraller/UserContraller.java</url>
-          <line>24</line>
+          <line>30</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -929,145 +1034,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customzing/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="71" lean-forward="false" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customzing/src/main/java/com/itmuch/config/Configuration1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/itmuch/cloud/contraller/MovieContraller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/microservice-consumer-movie-feign-fallback.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="69" column="52" lean-forward="false" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/cloud/spring-cloud-netflix-core/1.2.3.RELEASE/spring-cloud-netflix-core-1.2.3.RELEASE.jar!/org/springframework/cloud/netflix/feign/FeignClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/java/com/itmuch/cloud/feign/HelloClientFallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/main/java/com/itmuch/cloud/feign/UserFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/src/main/java/com/itmuch/cloud/feign/HelloClientFallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-fallback/src/main/java/com/itmuch/cloud/feign/UserFeignWithFallBackFactoryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/tomcat/util/net/SocketProcessorBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix/src/test/java/com/itmuch/cloud/MicroserviceSimpleConsumerMovieApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="71" column="44" lean-forward="false" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/itmuch/cloud/Contraller/UserContraller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/src/main/java/com/itmuch/cloud/TestConfiugration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/src/main/java/com/itmuch/config/ExcludeFromComponetScan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/src/main/java/com/itmuch/cloud/contraller/MovieContraller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/src/main/java/com/itmuch/cloud/ConsumerMovieRibbonApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1193,7 +1159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,23 +1187,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/itmuch/cloud/MicroserviceSimpleProviderUserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-discoverty-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1246,55 +1194,214 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="45" column="21" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discove-gateway-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/cloud/spring-cloud-netflix-core/1.2.3.RELEASE/spring-cloud-netflix-core-1.2.3.RELEASE.jar!/org/springframework/cloud/netflix/zuul/EnableZuulProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="278">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/contraller/MovieContraller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/config/ExcludeFromComponetScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/itmuch/cloud/ConsumerMovieRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix-dashboard/src/main/java/com/itmuch/cloud/contraller/MovieContraller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="43" column="69" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="43" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/itmuch/cloud/MicroserviceSimpleProviderUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discove-gateway-zuul-reg/src/main/java/com/itmuch/cloud/ZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discove-gateway-zuul-reg/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/itmuch/cloud/Contraller/UserContraller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-parent/1.4.2.RELEASE/spring-boot-starter-parent-1.4.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="300">
+          <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/microservice-file-upload/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="250">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-discove-gateway-zuul/pom.xml">
+    <entry file="file://$PROJECT_DIR$/microservice-file-upload/target/classes/com/itmuch/cloud/study/FileUploadApplication.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        <state relative-caret-position="200">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discoverty-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-file-upload/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.jar!/org/springframework/util/FileCopyUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-discoverty-eureka/src/main/java/com/itmuch/cloud/EurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="325">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-file-upload/src/main/java/com/itmuch/cloud/study/FileUploadApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-file-upload/src/main/java/com/itmuch/cloud/study/controller/FileUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-file-upload/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/java/com/itmuch/cloud/ZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="333">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discove-gateway-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/cloud/spring-cloud-netflix-core/1.2.3.RELEASE/spring-cloud-netflix-core-1.2.3.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/pre/DebugFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1373#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1305,10 +1412,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.36091954" />
+                <option value="0.16781609" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1351,11 +1460,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>microservice-discove-gateway-zuul</last-edited>
+          <last-edited>microservice-file-upload</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.7491369" />
+                <option value="0.37471265" />
               </list>
             </option>
           </splitter-proportions>
